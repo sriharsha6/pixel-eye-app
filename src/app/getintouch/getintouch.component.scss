@@ -1,0 +1,114 @@
+.card{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.card h2{
+    text-align: center;
+    font-family:'Open Sans';
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+.touch{
+    text-align: center;
+    letter-spacing: 1.7px;
+    font-size: 40px;
+color: #50e3c2;
+}
+.contact h3{
+  opacity: 0.3;
+  font-family: 'Open Sans';
+  font-size: 90px;
+  font-weight: 500;
+  letter-spacing: 3.7px;
+  color: #ffffff;
+}
+.details{
+    padding-right: 15px;
+}
+.details h3{
+    padding-right: 186px;
+    text-align: right;
+    font-family:'Open Sans';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+    
+}
+.details h4{
+    text-align: right;
+    font-family:'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: #50e3c2;
+}
+.phn{
+    padding-right: 15px;
+}
+.phn h3{
+    padding-right: 176px;
+    text-align: right;
+    font-family:'Open Sans';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.phn a{
+    float: right;
+    padding-right: 125px;
+    text-decoration: none;
+    color: #50e3c2
+}
+.copyrighhts{
+    font-family:'Open Sans';
+  font-size: 12.8px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+.copyrighhts a{
+    color: #50e3c2;
+}
+
+
+input{
+    // width: 268px;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: none!important;
+    background-color: transparent;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    padding:0px;
+    height: 40px;
+}
+.message textarea{
+    border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+//   height: 100px;
+  width:100%;
+  border-bottom-style: 2px solid #fff;
+  }
+
+  .message textarea:focus { box-shadow: none; -webkit-box-shadow: none; border-bottom-width: 2px; padding-bottom: 0; }
+        .message textarea:focus { padding-bottom: 4px; }
+        .inputs input:focus{ box-shadow: none; -webkit-box-shadow: none; border-bottom-width: 2px; padding-bottom: 0; }
+        .inputs input:focus { padding-bottom: 4px; }
+
+        .btn{
+            float: right;
+        }
+        @media all and (min-width: 320px) and (max-width: 720px) {
+            .contact {
+              display: none !important;
+            }
+          }

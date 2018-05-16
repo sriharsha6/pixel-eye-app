@@ -1,0 +1,151 @@
+
+.container-fluid{
+  padding-right: 38px;
+
+  margin-left: auto;
+}
+.image{
+    background-image:url('../../assets/images/modules/landingpage/ourteam/ourteam-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:auto;
+}
+.part1{
+    padding: 60px 10px 32px 72px;
+}
+.part1 h1{
+    color: whitesmoke;
+}
+.part1 h2{
+    color: #50e3c2;
+}
+.part1 p{
+    padding: 1px 13px 6px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    
+}
+.images{
+    padding:20px;
+    line-height: 20;
+}
+ hr{
+ border: 1px solid #50e3c2; 
+     width:193px;
+    margin-left: 73px;
+
+}
+.part2 p{
+    opacity:0.15;
+    color: #ffffff;
+    font-size:90px;
+    padding-top: 0px;
+    padding-right:214px;
+    padding-left: 31px;
+}
+
+.overlay {
+    position: absolute;
+   top:30px;
+    bottom: 0;
+    // left:22px;
+    // right: 21px;
+    left: 30px;
+    right: 4px;
+    height:80%;
+    // width:58%;
+    opacity:-0.3;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color:#50e3c2;
+  }
+  
+  .images1:hover .overlay {
+    opacity: 0.4;
+  }
+  
+  .overlay1 {
+    position: absolute;
+   top:30px;
+    bottom: 0;
+    // left:22px;
+    // right: 21px;
+    left:30px;
+    right: 4px;
+    height:80%;
+    // width:58%;
+    opacity:-0.3;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color:#50e3c2;
+  }
+  img{
+    width:113%;
+  }
+  .images2:hover .overlay1 {
+    opacity: 0.4;
+  }
+  .overlay2 {
+    position: absolute;
+   top:30px;
+    bottom: 0;
+    // left: 22px;
+    // right:21px;
+    left: 30px;
+    right: 4px;
+    height:80%;
+    // width:58%;
+    opacity:-0.3;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color:#50e3c2;
+  }
+  
+  .images3:hover .overlay2 {
+    opacity: 0.4;
+  }
+  .overlay3 {
+    position: absolute;
+   top:30px;
+    bottom: 0;
+    // left:22px;
+    // right:21px;
+    left: 30px;
+    right: 4px;
+    height:80%;
+    // width: 58%;
+    opacity:-0.3;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    background-color:#50e3c2;
+  }
+  
+  .images4:hover .overlay3 {
+    opacity: 0.4;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity:1;
+  }
+  .text h1{
+ margin-top: 0px;
+      font-size: 20px;
+      color:white;
+  
+  }
+  .text h2{
+    margin-top: 112px;
+    font-size: 19px;
+    color:white;
+  }
+  
